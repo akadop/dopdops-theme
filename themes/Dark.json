@@ -75,13 +75,6 @@
       }
     },
     {
-      "name": "User-defined constant",
-      "scope": "variable.other.readwrite",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
       "name": "Keywords",
       "scope":
         "keyword.operator.comparison.js, keyword.control.flow, keyword.control.trycatch, keyword.control.conditional",
@@ -116,7 +109,8 @@
     },
     {
       "name": "Class name",
-      "scope": "entity.name.class, meta.class.extends variable.other.readwrite",
+      "scope":
+        "entity.name.class, meta.object.member, meta.class.extends variable.other.readwrite",
       "settings": {
         "foreground": "#E5C07B"
       }
@@ -130,7 +124,8 @@
     },
     {
       "name": "Variable Functions",
-      "scope": "variable, variable.function.js",
+      "scope":
+        "variable, variable.function.js, entity.name.function, meta.definition.function.ts",
       "settings": {
         "foreground": "#45B8FF"
       }
