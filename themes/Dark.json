@@ -78,41 +78,54 @@
       "name": "User-defined constant",
       "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#EFEFEF"
+        "foreground": "#ABB2BF"
       }
     },
     {
       "name": "Keywords",
       "scope":
-        "keyword.operator.comparison.js, keyword.control.flow, keyword.control.trycatch, keyword.control.conditional, keyword.operator.accessor",
+        "keyword.operator.comparison.js, keyword.control.flow, keyword.control.trycatch, keyword.control.conditional",
       "settings": {
         "foreground": "#C678DD",
         "fontStyle": "italic"
       }
     },
     {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#C678DD"
+      }
+    },
+    {
       "name":
-        "Object Functions, Object Property Curly, Arrow Function/Storage Type, Variable",
+        "Object Functions, Object Property Curly, Arrow Function, Variable",
       "scope":
-        "meta.function.arrow.js, storage.type, meta.group.braces.curly.js, meta.function-call.without-arguments.js",
+        "meta.function.arrow.js, meta.group.braces.curly.js, meta.function-call.without-arguments.js",
       "settings": {
         "foreground": "#FF4A98"
       }
     },
     {
       "name": "Object Module/Process, Support Type",
-      "scope":
-        "support.type, support.type.object, keyword.operator.accessor",
+      "scope": "support.type, support.type.object, keyword.operator.accessor",
       "settings": {
         "foreground": "#cd9731"
       }
     },
     {
       "name": "Class name",
-      "scope": "entity.name.class",
+      "scope": "entity.name.class, meta.class.extends variable.other.readwrite",
       "settings": {
-        "foreground": "#ffee4a",
-        "fontStyle": "italic, underline"
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#E5C07B"
       }
     },
     {
@@ -139,6 +152,14 @@
       }
     },
     {
+      "name": "Python Function argument",
+      "scope": "variable.parameter.function.language",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#D19A66"
+      }
+    },
+    {
       "name": "Tag name",
       "scope": "entity.name.tag",
       "settings": {
@@ -147,10 +168,19 @@
       }
     },
     {
-      "name": "Tag attribute",
-      "scope": "entity.other.attribute-name",
+      "name": "Entity",
+      "scope":
+        "meta.namespace.identifier entity.name.type, entity.name.variable",
       "settings": {
-        "foreground": "#FF4A98"
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope":
+        "entity.other.attribute-name.html, entity.other.attribute-name.js, entity.other.attribute-name.jsx",
+      "settings": {
+        "foreground": "#D19A66"
       }
     },
     {
@@ -180,6 +210,20 @@
       "scope": "variable.language, meta.class variable.other.readwrite",
       "settings": {
         "foreground": "#E06C75"
+      }
+    },
+    {
+      "name": "JSON Property",
+      "scope": "meta.structure.dictionary.json support.type.property-name",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "name": "JSON String",
+      "scope": "meta.structure.dictionary.json string.quoted.double.json",
+      "settings": {
+        "foreground": "#98C379"
       }
     },
     {
