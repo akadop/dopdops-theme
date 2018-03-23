@@ -1,0 +1,1 @@
+personal theme with a dark background, neon colors, and syntax coloring like the one found in sublime style atom dark.
