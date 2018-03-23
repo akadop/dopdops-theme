@@ -57,7 +57,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#4affb1"
+        "foreground": "#0AFAFA"
       }
     },
     {
@@ -86,14 +86,21 @@
       "scope": "variable",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FF4A98"
+        "foreground": "#45B8FF"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#4affb1"
       }
     },
     {
       "name": "Keyword/Storage",
       "scope": "keyword, storage",
       "settings": {
-        "foreground": "#7F83FF"
+        "foreground": "#4affb1"
       }
     },
     {
@@ -105,8 +112,10 @@
       }
     },
     {
-      "name": "Object Functions, Object Property Curly",
-      "scope": "variable.function.js, meta.group.braces.curly.js",
+      "name":
+        "Object Functions, Object Property Curly, Arrow Function/Storage Type",
+      "scope":
+        "variable.function.js, meta.group.braces.curly.js, meta.function-call.without-arguments.js",
       "settings": {
         "foreground": "#4a7bff"
       }
@@ -191,7 +200,7 @@
       "name": "Variable Other",
       "scope": "variable.other.object, variable.other.object.js",
       "settings": {
-        "foreground": "#615FFF"
+        "foreground": "#4a7bff"
       }
     },
     {
