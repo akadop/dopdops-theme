@@ -78,7 +78,7 @@
       "name": "User-defined constant",
       "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#EFEFEF"
       }
     },
     {
@@ -96,13 +96,13 @@
       "scope":
         "meta.function.arrow.js, storage.type, meta.group.braces.curly.js, meta.function-call.without-arguments.js",
       "settings": {
-        "foreground": "#4a7bff"
+        "foreground": "#FF4A98"
       }
     },
     {
       "name": "Object Module/Process, Support Type",
       "scope":
-        "support.type, support.type.object.module, keyword.operator.accessor",
+        "support.type, support.type.object, keyword.operator.accessor",
       "settings": {
         "foreground": "#cd9731"
       }
@@ -112,14 +112,14 @@
       "scope": "entity.name.class",
       "settings": {
         "foreground": "#ffee4a",
-        "fontStyle": "italic underline"
+        "fontStyle": "italic, underline"
       }
     },
     {
       "name": "Variable Functions",
       "scope": "variable, variable.function.js",
       "settings": {
-        "foreground": "#FF4A98"
+        "foreground": "#45B8FF"
       }
     },
     {
