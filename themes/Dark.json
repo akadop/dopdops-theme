@@ -61,68 +61,49 @@
       }
     },
     {
-      "name": "Number",
+      "name": "Number/Await",
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#ff944a"
       }
     },
     {
-      "name": "Built-in constant",
-      "scope": "constant.language",
-      "settings": {
-        "foreground": "#0AFAFA"
-      }
-    },
-    {
-      "name": "User-defined constant",
-      "scope": "constant.character, constant.other",
+      "name": "Built-in constant, User-defined constant",
+      "scope": "constant.language, constant.character, constant.other",
       "settings": {
         "foreground": "#0AFAFA"
       }
     },
     {
       "name": "Variable",
-      "scope": "variable",
+      "scope":
+        "keyword.control.flow, keyword.control.trycatch, keyword.control.conditional, keyword.operator.accessor",
       "settings": {
-        "fontStyle": "",
-        "foreground": "#45B8FF"
-      }
-    },
-    {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#4affb1"
-      }
-    },
-    {
-      "name": "Keyword/Storage",
-      "scope": "keyword, storage",
-      "settings": {
-        "foreground": "#4affb1"
-      }
-    },
-    {
-      "name": "Arrow Function/Storage Type",
-      "scope": "meta.function.arrow.js, storage.type",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#ff4af3"
+        "foreground": "#8599b3ff",
+        "background": "#14161aff"
       }
     },
     {
       "name":
-        "Object Functions, Object Property Curly, Arrow Function/Storage Type",
+        "Object Functions, Object Property Curly, Arrow Function/Storage Type, Variable",
       "scope":
-        "variable.function.js, meta.group.braces.curly.js, meta.function-call.without-arguments.js",
+        "meta.function.arrow.js, storage.type, meta.group.braces.curly.js, meta.function-call.without-arguments.js",
       "settings": {
         "foreground": "#4a7bff"
       }
     },
     {
-      "name": "Object Module",
-      "scope": "support.type.object.module",
+      "name": "Keyword Comparison",
+      "scope": "keyword.operator.comparison.js",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff574a"
+      }
+    },
+    {
+      "name": "Object Module/Process, Support Type",
+      "scope":
+        "support.type, support.type.object.module, keyword.operator.accessor",
       "settings": {
         "foreground": "#ffee4a"
       }
@@ -131,8 +112,15 @@
       "name": "Class name",
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "#FF4A98",
+        "foreground": "#cd9731",
         "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "Variable Functions",
+      "scope": "variable, variable.function.js",
+      "settings": {
+        "foreground": "#FF4A98"
       }
     },
     {
@@ -144,18 +132,11 @@
       }
     },
     {
-      "name": "Function name",
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#FF4A98"
-      }
-    },
-    {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#45B8FF"
+        "foreground": "#465173"
       }
     },
     {
@@ -200,7 +181,7 @@
       "name": "Variable Other",
       "scope": "variable.other.object, variable.other.object.js",
       "settings": {
-        "foreground": "#4a7bff"
+        "foreground": "#ff574a"
       }
     },
     {
