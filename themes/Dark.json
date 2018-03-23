@@ -68,19 +68,26 @@
       }
     },
     {
-      "name": "Built-in constant, User-defined constant",
+      "name": "Built-in constant",
       "scope": "constant.language, constant.character, constant.other",
       "settings": {
         "foreground": "#0AFAFA"
       }
     },
     {
-      "name": "Variable",
-      "scope":
-        "keyword.control.flow, keyword.control.trycatch, keyword.control.conditional, keyword.operator.accessor",
+      "name": "User-defined constant",
+      "scope": "variable.other.readwrite",
       "settings": {
-        "foreground": "#8599b3ff",
-        "background": "#14161aff"
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope":
+        "keyword.operator.comparison.js, keyword.control.flow, keyword.control.trycatch, keyword.control.conditional, keyword.operator.accessor",
+      "settings": {
+        "foreground": "#C678DD",
+        "fontStyle": "italic"
       }
     },
     {
@@ -93,27 +100,19 @@
       }
     },
     {
-      "name": "Keyword Comparison",
-      "scope": "keyword.operator.comparison.js",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#ff574a"
-      }
-    },
-    {
       "name": "Object Module/Process, Support Type",
       "scope":
         "support.type, support.type.object.module, keyword.operator.accessor",
       "settings": {
-        "foreground": "#ffee4a"
+        "foreground": "#cd9731"
       }
     },
     {
       "name": "Class name",
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "#cd9731",
-        "fontStyle": " bold"
+        "foreground": "#ffee4a",
+        "fontStyle": "italic underline"
       }
     },
     {
@@ -136,7 +135,7 @@
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#465173"
+        "foreground": "#ABB2BF"
       }
     },
     {
@@ -144,7 +143,7 @@
       "scope": "entity.name.tag",
       "settings": {
         "fontStyle": "",
-        "foreground": "#7F83FF"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -162,14 +161,6 @@
       }
     },
     {
-      "name": "Library constant",
-      "scope": "support.constant",
-      "settings": {
-        "fontStyle": "",
-        "foreground": "#ff574a"
-      }
-    },
-    {
       "name": "Library class/type",
       "scope": "support.type, support.class",
       "settings": {
@@ -179,9 +170,16 @@
     },
     {
       "name": "Variable Other",
-      "scope": "variable.other.object, variable.other.object.js",
+      "scope": "variable.other",
       "settings": {
-        "foreground": "#ff574a"
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "name": "Language",
+      "scope": "variable.language, meta.class variable.other.readwrite",
+      "settings": {
+        "foreground": "#E06C75"
       }
     },
     {
