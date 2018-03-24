@@ -1,26 +1,24 @@
 {
-    "name": "theme-dopdops",
-    "displayName": "dopdops theme",
-    "description": "perfect",
-    "version": "0.8.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/akadop/dopdops-theme"
-    },
-    "publisher": "akadop",
-    "engines": {
-        "vscode": "^1.12.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "dopdops Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dark.json"
-            }
-        ]
-    }
+  "name": "theme-dopdops",
+  "displayName": "dopdops theme",
+  "description": "perfect",
+  "version": "0.9.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akadop/dopdops-theme"
+  },
+  "publisher": "akadop",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dopdops Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark.json"
+      }
+    ]
+  }
 }
