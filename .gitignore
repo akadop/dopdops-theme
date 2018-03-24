@@ -3,3 +3,5 @@
 DS_STORE
 .DS_STORE
 test.json
+yarn-error.log
+.log
