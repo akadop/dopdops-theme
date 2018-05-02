@@ -201,7 +201,7 @@
       "scope":
         "variable.function, entity.name.function, entity.name.function.arrow, meta.class-method.js entity.name.function.js, meta.method.property.js entity.name.function.js",
       "settings": {
-        "foreground": "#05B4E5"
+        "foreground": "#ff4a98"
       }
     },
     {
